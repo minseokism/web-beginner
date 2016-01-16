@@ -5,7 +5,7 @@ function sumLineNum(input){
 
 	while(!input==0){
 		value=input%10;
-		hap=hap+value;
+		hap+=value;
 		input=parseInt(input/10);
 	}
 

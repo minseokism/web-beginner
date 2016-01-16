@@ -12,6 +12,8 @@ function makeDiamond (input) {
 		for(var p = 0 ; p<i ; p++){
 			column=column+"*";
 		}
+
+		//위에 for 문 제거해서 만들기
 		console.log(column);
 	}
 
@@ -32,3 +34,5 @@ function makeDiamond (input) {
 };
 
 makeDiamond(5);
+//개행문 더해서 콘솔로그 한번만 찍을수 있게 +'\n';
+//
