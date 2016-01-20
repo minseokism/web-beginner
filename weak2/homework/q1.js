@@ -15,6 +15,8 @@
  -       5
  */
 
+//시간복잡도 n^2
+
 function getRandomNum(x,y) {
 	var outputArray = [y];  								// random한 수를 받을 배열 생성
 	var count  = 0;
