@@ -16,16 +16,16 @@
  */
 
 function getRandomNum(x,y) {
-	var outputArray = [y];  								// random한 수를 받을 배열 생성
-	var count  = 0;
-	var output = "20개의 숫자중 랜덤한 숫자 5개는 ";
-	for(var i = 0 ; i < y ; i++) {					 
-		outputArray[i]=Math.floor(Math.random()*x+1); 	// random()함수를 통해 1~x 까지의 범위의 랜덤한 정수를 구한다.    
-		output+="\n"+outputArray[i];            
-	}
+    var outputArray = [y];                                  // random한 수를 받을 배열 생성
+    var count  = 0;
+    var output = "20개의 숫자중 랜덤한 숫자 5개는 ";
+    for(var i = 0 ; i < y ; i++) {                     
+        outputArray[i]=Math.floor(Math.random()*x+1);     // random()함수를 통해 1~x 까지의 범위의 랜덤한 정수를 구한다.    
+        output+="\n"+outputArray[i];            
+    }
 
 
-	return output;
+    return output;
 };
 
 console.log(getRandomNum(20,5));
