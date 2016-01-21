@@ -1,3 +1,26 @@
+/*
+ 2016-01-09 weak1 homework
+ 1. 아래와 같이 크기를 마음대로 조절하여 다이아몬드형 *를 출력하는 function을 작성하세요.
+ -  예시)  makeDiamond(5);
+ -        makeDiamond(3);
+ -
+ -			    *
+ -			   ***
+ -			  *****
+ -			 *******
+ -			*********
+ -			 *******
+ -			  *****
+ - 			   ***
+ -   			*
+ -
+ - 			    *
+ -			   ***
+ -			  *****
+ -			   ***
+ -	 			*
+ */
+
 function makeDiamond (input) {
 
 	var column;
@@ -33,6 +56,6 @@ function makeDiamond (input) {
 	}
 };
 
-makeDiamond(5);
+makeDiamond(3);
 //개행문 더해서 콘솔로그 한번만 찍을수 있게 +'\n';
 //
