@@ -19,7 +19,6 @@
 
 function getRandomNum(x,y) {
 	var outputArray = [y];  								// random한 수를 받을 배열 생성
-	var count  = 0;
 	var output = "20개의 숫자중 랜덤한 숫자 5개는";					// 출력
 	var temp = 0;											// random한 수를 임시저장 할 변수 
 	var flag;                                        		// 중복확인할 변수 
